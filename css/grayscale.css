@@ -146,7 +146,6 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    opacity: 0.2;
     color: white;
     background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
     background-color: #000;
@@ -154,6 +153,17 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+#about {
+    width: 100%;
+    height: auto;    
+    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;    
 }
 
 .intro .intro-body {
